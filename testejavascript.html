@@ -5,6 +5,7 @@
 	<script>
 		function acendaLampada(){
 		   alert("Lâmpada acendeu")
+		    document.getElementById("luz").src = "_imagens/lampada-acesa.jpg";
 		}
    
 	   </script>
@@ -12,7 +13,7 @@
 </head>
 <body>
 	<h1>Acenda a lâmpada</h1>
-	<img src="_imagens/lampada-apagada.jpg" onmousemove="acendaLampada()" />
+	<img src="_imagens/lampada-apagada.jpg" id="luz" onmousemove="acendaLampada()" />
 	
 </body>
 </html>
