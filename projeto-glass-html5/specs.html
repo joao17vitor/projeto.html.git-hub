@@ -1,14 +1,45 @@
-Google Glass
-A revolução do Google está chegando
+<doctype html>
+    <html>
+    <head>
+    <meta charset="utf-8"/>
+    <!-- <a href="_css/estilo.css> para abrir em outra aba target="_blanck" -->
+    <link type="text/css" rel="stylesheet" href="_css/estilo.css" />
+    <title>Google Glass</title>
+    </head>
+    <script>
+    function mudaFoto(foto){
+    document.getElementById('icone').src = foto ;
 
-[AQUI ENTRA UMA FOTO]
+    }
 
-Menu Principal
-- Home
-- Especificações
-- Fotos
-- Multimídia
-- Fale conosco
+    </script>
+    
+    <body>
+        <div id="interface">
+        <header id="cabecalho">  
+        <!--para agrupar esse grupo utilizamos <hgroup> semantica -->
+            <hgroup>
+        <h1>Google Glass</h1>
+        <h2>A revolução do Google está chegando</h2>
+        <!--para agrupar esse grupo utilizamos <hgroup> -->
+        </hgroup>
+        <img id="icone"src="_imagens/glass-oculos-preto-peq.png"/>
+         <!--tudo que tiver dentro do meu <nav> será a parte de navegação do meu menu -->
+         <!--as lista ordenadas(ol) e desordenadas do meu menu(ul) intens de listas(li) -->
+        <!-- os tipos de listas <ol type="A"(alfabetica),  <ol type="1"(numero)>,  <ol type="i"(romano)> 
+          para continuar da onde parou coloca  <ol type="A" star="2"> o star só aceita valores numericos-->
+         <!--as lista desordenadas(ul) <ol type="square" "disc" "circle" quadrado, circulo e circulo vazio -->  
+        <nav id="menu">
+        <h1>Menu Principal</h1>
+        <ul>
+         <li onmousemove="mudaFoto('_imagens/Home.png')"><a href="index.html" onmouseout="mudaFoto('_imagens/glass-oculos-preto-peq.png')">Home</a></li>
+         <li onmousemove="mudaFoto('_imagens/especificacoes.png')"><a href="specs.html"  onmouseout="mudaFoto('_imagens/glass-oculos-preto-peq.png')">Especificações</a></li>
+         <li onmousemove="mudaFoto('_imagens/fotos.png')"><a href="fotos.html" onmouseout="mudaFoto('_imagens/glass-oculos-preto-peq.png')">Fotos</a></li>  
+         <li onmousemove="mudaFoto('_imagens/multimidia.png')"><a href="multimidia.html" onmouseout="mudaFoto('_imagens/glass-oculos-preto-peq.png')">Multimídia</a></li>
+         <li onmousemove="mudaFoto('_imagens/contato.png')"><a href="fale-conosco.html"  onmouseout="mudaFoto('_imagens/glass-oculos-preto-peq.png')">Fale conosco</a></li>
+        </ul>
+        </nav>
+        </header>
 
 Glass > Especificações
 Raio-X no Google Glass
