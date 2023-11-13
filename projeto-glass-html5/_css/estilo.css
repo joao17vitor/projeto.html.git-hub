@@ -229,6 +229,7 @@
 
     header#cabecalho-artigo h2{
     /*Modificar a fonte do titulo do meu cabecalho*/
+    font-family: 'fontelogo' ;
     /*O tamanho da fonte do meu cabecalho*/
     font-size: 13pt ;
     /*Modificar a cor de fundo*/
