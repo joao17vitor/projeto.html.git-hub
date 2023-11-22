@@ -5,7 +5,7 @@
    src:url("../_fonts/computer-font.ttf") ;
 
 }
-/* Formatação do corpo do site */
+/* ######################################### Formatação do corpo do site #########################################  */
    body{
     /*alterar a fonte da letra*/
    font-family: arial;
@@ -15,18 +15,18 @@
    color: rgba(0,0,0,1);
    /*Isso vai alterar a font da letra */
 }   
-    /*Formatar os links*/
+    /* #########################################Formatar os links #########################################*/
    a{
     /*Tiraro sublinhado dos lins*/
     text-decoration: none;
 
 }
-/*Formatar os links*/
+/* ######################################### Formatar os links #########################################*/
    a:hover{
     /*coloca o sublinhado quando passo o mouse em cima */
     text-decoration: underline;
 }
-/* Formatação do conteudo do site */
+/* ######################################### Formatação do conteudo do site  #########################################*/
    div#interface{
     /*Largura*/
     width: 1000px ;
@@ -43,14 +43,14 @@
     padding:10px 10px 10px 10px;
 }
 
-/* Formatação de paragrafo */
+/* ######################################### Formatação de paragrafo  #########################################*/
     p{
     text-align:justify;
     text-indent:50px;
     
 }
 
- /* Formatação de imagens com legenda */
+ /* ######################################### Formatação de imagens com legenda ################################################## */
       figure.foto-legenda{
     /*Borda vermelha com 8 pixes solida */
     border: 8px solid white ;
@@ -63,7 +63,7 @@
 
     /**/
  }
- /*Formatar o tamanho da imagem */
+ /* ######################################### Formatar o tamanho da imagem ######################################### */
      figure.foto-legenda img{
  	/*Largura*/
      width: 100% ;
@@ -71,7 +71,7 @@
      height: 100% ;
 
  }
-/*Formatar a legenda da imagem  */
+/* ##################################### Formatar a legenda da imagem ##########################################################  */
      figure.foto-legenda figcaption{
      /* Ele tera uma posição absoluta no contemer*/
      position: absolute;
@@ -95,7 +95,7 @@
      transition: opacity 2s;
 
 }
-/*Formatar a transição da legenda da imagem  */
+/*#################################### Formatar a transição da legenda da imagem ###############################################*/
      figure.foto-legenda:hover figcaption{
      /* controla a transparencia da letra */
      opacity: 1 ;
@@ -106,7 +106,7 @@
     /*O menu todo como um block */
     display: block;
 }
- /*Estilo da lista desordenada do menu */
+ /*################################### Estilo da lista desordenada do menu #################################################### */
      nav#menu ul{
     /*vamos apagar os marcadores */
     list-style: none;
@@ -120,7 +120,7 @@
     left: 700px ;
 
  }
-/*Formatar os itens da lista */
+/* ############################################ Formatar os itens da lista ##################################################### */
      nav#menu li{
     /*Um block será exibido numa mesma linha */
     display: inline-block;
@@ -133,30 +133,30 @@
     /* Controla a transparencia da cor do bloco */
     transition: background-color 1s;
 }
-/*Estilo do h1 no menu */
+/* ############################################ Estilo do h1 no menu ########################################################## */
      nav#menu h1 {
     /*Apagar o h1 do meu menu */
     display: none;
 }
 
-/*Formatar os itens da lista */
+/* ############################################ Formatar os itens da lista ##################################################*/
      nav#menu li:hover {
     /*Colocar uma cor dentro de cada block para quando eu passar o mouse por cima */
     background-color: #606060;
 } 
-/*Estilo do h1 no menu */
+/* ######################################### Estilo do h1 no menu  #########################################*/
      nav#menu a {
     /*Cor das letras do menu */
     color: #000000;
     /*Tira o sublinhado das letras do menu*/
     text-decoration: none;
 }
-/*Formatar os itens da lista */
+/* ######################################### Formatar os itens da lista ######################################### */
      nav#menu a:hover {
     /*Colocar uma cor dentro de cada block para quando eu passar o mouse por cima */
     color: white;
 }
-    /* Mexer no cabeçalho do meu site na imagem do oculos*/
+    /* ######################################### Mexer no cabeçalho do meu site na imagem do oculos #########################################*/
     header#cabecalho img#icone{
     /* Ele tera uma posição absoluta para que ele possa passar por cima dos documentos*/
     position: absolute;
@@ -165,7 +165,7 @@
     /*Para a esquerda*/
     left: 1250px ;
  }
-    /* Mexer no cabeçalho do meu site */
+    /* ######################################### Mexer no cabeçalho do meu site ######################################### */
      header#cabecalho{
     /*Linha no cabeçalho*/
     border-bottom: 1px #606060 solid;
@@ -175,7 +175,7 @@
     background:url( ../_imagens/glass-logo-peq.jpg ) no-repeat 0px 100px;
 }
 
-/* Mexer no titulo-principal do cabeçalho do meu site */
+/*  ######################################### Mexer no titulo-principal do cabeçalho do meu site  ######################################### */
     header#cabecalho h1{
     /*Fonte da letra do titulo-principal */
     font-family: 'fontelogo', sans-serif ;
@@ -191,7 +191,7 @@
     /*Espaço de fora na parte de baixo*/
     margin-bottom: 0px;
  }
- /* Mexer no subtitulo do cabeçalho do meu site */
+ /* ######################################### Mexer no subtitulo do cabeçalho do meu site ######################################### */
     header#cabecalho h2{
     /*Fonte da letra do titulo-principal */
     font-family: arial, sans-serif ;
@@ -204,7 +204,7 @@
     /*Espaço de fora na parte de cima*/
     margin-top: 0px;
 }
-/*Sessão */
+/* ######################################### Sessão ######################################### */
     section#corpo{
     /*A sessão todo como um block */
     display: block;
@@ -217,7 +217,7 @@
     /*Espaçamento interno*/
     padding-right: 15px;
 }
-/*Modificar os artigos do meu cabeçalho*/
+/* ######################################### Modificar os artigos do meu cabeçalho ######################################### */
     header#cabecalho-artigo h1{
     /*Modificar a fonte do titulo do meu cabecalho*/
     font-family: 'fontelogo' ;
@@ -255,7 +255,7 @@
 
 }
 
-/*Formatação do artigo principal*/
+/* ######################################### Formatação do artigo principal #########################################*/
     article#noticia-principal h2{
     font-size:12pt ;
     font-family: 'fontelogo';
@@ -265,7 +265,7 @@
     margin:10px ;
 }
 
-/*Corpo lateral */
+/* ######################################### Corpo lateral ######################################### */
     aside#lateral{
     /*A parte lateral todo como um block */
     display: block;
@@ -284,7 +284,7 @@
     
 }
 
-/*Corpo lateral */
+/* ######################################### Corpo lateral ######################################### */
     aside#lateral h1{
    /*Modificar a fonte do titulo do meu cabecalho*/
     font-family: 'fontelogo' ;
@@ -295,7 +295,7 @@
     /*Espaço de fora na parte de cima*/
     margin-top: 10px;
 }
-/*Corpo lateral */
+/* ######################################### Corpo lateral #########################################*/
     aside#lateral h2{
     /*Cor*/
     color:white;
@@ -306,19 +306,19 @@
     /*Espaçamento interno*/
     padding:5px;
 }
-    /*Roda pé*/
+/* ######################################### Roda pé #########################################*/
     footer#rodape{
     /* ele puxou o rodape para baixo*/
     clear: both;
     /*Borda que divide o section do aside */
     border-top: 1px solid black ;
 }
-    /*Roda pé paragrafo*/
+/* ######################################### Roda pé paragrafo #########################################*/
     footer#rodape p{
     /*O paragrafo esta indentado de maneira centralizada*/
     text-align: center;
 }
-    /*Formatação da tablela */ 
+/* ######################################### Formatação da tablela #########################################*/ 
     table#tablelaspec{
     /*Borda */
     border: 1px solid #606060 ;
@@ -329,7 +329,7 @@
     /*Espaço de fora na parte da direita*/
     margin-right: auto;
 }
-    /*Formatação dos dados da tablela */ 
+/* ######################################### Formatação dos dados da tablela ######################################### */ 
     table#tablelaspec td{
     /*Borda */
     border: 1px solid #606060 ;
@@ -340,7 +340,7 @@
     /*Os dados dessa tablela esta de maneira indentado */
     vertical-align: middle;
 }
-    /*Formatação dos dados da tablela */ 
+/* ######################################### Formatação dos dados da tablela ######################################### */ 
     table#tablelaspec td.esquerda{
     /* Mexer na cor das celulas  */
     color: #ffffff;
@@ -353,13 +353,13 @@
 
 
 }
-    /*Formatação dos dados da tablela */ 
+/* ######################################### Formatação dos dados da tablela #########################################*/ 
     table#tablelaspec td.direita{
     /*Colocar uma cor dentro  */
     background-color: #cecece; 
     
 }   
-    /*Formatação do titulo da tablela */
+/* ######################################### Formatação do titulo da tablela ######################################### */
     table#tablelaspec caption{
     /* Mexer na cor do titulo */
     color: #888888;
@@ -370,7 +370,7 @@
 
 }
 
-    /*Formatação do titulo da tablela */
+/* ######################################### Formatação do titulo da tablela #########################################*/
     table#tablelaspec caption span{
     /* Mexer no tamanho da letra do titulo/principal  */
     font-size: 8pt;
