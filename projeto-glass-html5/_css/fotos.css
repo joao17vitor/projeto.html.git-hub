@@ -1,0 +1,169 @@
+@charset "utf-8";
+/*########################################### Formatação do album-fotos ###############################################*/
+    ul#album-fotos{
+    /*Largura*/
+    width: 700px ;
+    /*Uma margem espaço do lado de fora (auto) o pc vai cuidar disso automaticamente*/
+    margin: 0 auto ;
+    /*Espaçamento interno*/
+    padding:50px ;
+    /**/
+    overflow: hidden;
+    /*Estilo da lista*/
+    list-style: none;
+
+}
+/* ########################################### Formatação do album-fotos ###########################################*/
+  ul#album-fotos li{
+   /*Fazer flutuar para a esquerda*/
+   float: left;
+   /*Largura*/
+   width: 200px;
+   /*Altura*/
+   height: 200px;
+   /*Espaçamento do lado de fora*/
+   margin: 10px;
+   /*Criar uma borda*/
+   border:5px solid white ;
+   /*Cor de fundo*/
+   background-color: #ffffff ;
+   /*Uma ligeira sombra na borda*/
+   box-shadow:1px 1px 3px rgba(0,0,0,.4) ;
+   /*Vai fazer uma transição na hora de dar um zoom e all=para acontecer com todo mundo,
+   ease-in=Vai dar um zoom de forma suave */
+   -webkit-transition:all 0.5s ease-in;
+
+  }
+  ul#album-fotos li span{
+  /*Nivel de transparencia*/
+  opacity: 1;
+  /*Cor da letra*/
+  color: #ffffff ;
+  /*Uma sombra envolve o texto*/
+  text-shadow: 1px 1px 1px #000000;
+  /*Cor de fundo*/
+  background-color: rgba(0,0,0,.3);
+  /*Tamanho da fonte*/
+  font-size:9pt ;
+  /*Altura do texto*/
+  line-height: 370px;
+  /*Espaçamento interno*/
+  padding:5px ; 
+  }
+
+ /*########################################### Colocar as imagens dentro dos quadrados url('../_imagens/galeria-01.jpg'); 
+                                              NÃO PODE AVER ESPAÇO NO URL() POS A HTML ENTENDE QUE MUDA O PARAMETRO ###########################################*/
+  ul#album-fotos li#foto01{
+  /*Imagem de fundo*/
+  background-image: url('../_imagens/galeria-01.jpg');
+  /*Posição de fundo*/
+  background-position: 50% 50%;
+  /*Tamanho de fundo*/
+  background-size:400px 400px ;
+  /*Cor de fundo*/
+  background-color:#ffffff ;
+  }
+  ul#album-fotos li#foto01:hover{
+  /*Posição de fundo*/
+  background-position: 0% 0%;
+  /*Tamanho de fundo*/
+  background-size:200px 200px ;
+
+  }
+  /* ########################################### Para quando mover o mouse nas fotos ele vai dar um zoom ###########################################*/
+  ul#album-fotos li:hover{
+  /*Vamos dar um zoom nas imagens*/
+  -webkit-transform: scale(1.5);
+
+  }
+  /* ########################################### Colocar as imagens dentro dos quadrados ###########################################*/
+  ul#album-fotos li#foto02{
+  background-image: url('../_imagens/galeria-02.jpg');
+  /*Posição de fundo*/
+  background-position: 50% 50%;
+  /*Tamanho de fundo*/
+  background-size:400px 400px ;
+  /*Cor de fundo*/
+  background-color:#ffffff ;
+  }
+  /* ########################################### Para quando passar o mouse vai aver uma ação ###########################################*/
+  ul#album-fotos li#foto02:hover{
+  /*Posição de fundo*/
+  background-position: 0% 0%;
+  /*Tamanho de fundo*/
+  background-size:200px 200px ;
+
+  }
+
+  /* ########################################### Colocar as imagens dentro dos quadrados ###########################################*/
+  ul#album-fotos li#foto03{
+  background-image: url('../_imagens/galeria-03.jpg');
+  /*Posição de fundo*/
+  background-position: 50% 50%;
+  /*Tamanho de fundo*/
+  background-size:400px 400px ;
+  /*Cor de fundo*/
+  background-color:#ffffff ;
+  }
+  /* ########################################### Para quando passar o mouse vai aver uma ação ###########################################*/
+  ul#album-fotos li#foto03:hover{
+  /*Posição de fundo*/
+  background-position: 0% 0%;
+  /*Tamanho de fundo*/
+  background-size:200px 200px ;
+
+  }
+  /*########################################### Colocar as imagens dentro dos quadrados ###########################################*/
+  ul#album-fotos li#foto04{
+  background-image: url('../_imagens/galeria-04.jpg');
+  /*Posição de fundo*/
+  background-position: 50% 50%;
+  /*Tamanho de fundo*/
+  background-size:400px 400px ;
+  /*Cor de fundo*/
+  background-color:#ffffff ;
+  }
+  /* ########################################### Para quando passar o mouse vai aver uma ação ###########################################*/
+  ul#album-fotos li#foto04:hover{
+  /*Posição de fundo*/
+  background-position: 0% 0%;
+  /*Tamanho de fundo*/
+  background-size:200px 200px ;
+
+  }
+  /* ########################################### Colocar as imagens dentro dos quadrados ###########################################*/
+  ul#album-fotos li#foto05{
+  background-image: url('../_imagens/galeria-05.jpg');
+  /*Posição de fundo*/
+  background-position: 50% 50%;
+  /*Tamanho de fundo*/
+  background-size:400px 400px ;
+  /*Cor de fundo*/
+  background-color:#ffffff ;
+  }
+  /* ########################################### Para quando passar o mouse vai aver uma ação ###########################################*/
+  ul#album-fotos li#foto05:hover{
+  /*Posição de fundo*/
+  background-position: 0% 0%;
+  /*Tamanho de fundo*/
+  background-size:200px 200px ;
+
+  }
+  /* ########################################### Colocar as imagens dentro dos quadrados ###########################################*/
+  ul#album-fotos li#foto06{
+  background-image: url('../_imagens/galeria-06.jpg');
+  /*Posição de fundo*/
+  background-position: 50% 50%;
+  /*Tamanho de fundo*/
+  background-size:400px 400px ;
+  /*Cor de fundo*/
+  background-color:#ffffff ;
+  }
+  /* ########################################### Para quando passar o mouse vai aver uma ação ########################################### */
+  ul#album-fotos li#foto06:hover{
+  /*Posição de fundo*/
+  background-position: 0% 0%;
+  /*Tamanho de fundo*/
+  background-size:200px 200px ;
+
+  }

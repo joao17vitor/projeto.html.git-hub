@@ -1,0 +1,85 @@
+@charset "utf-8";
+/*####################################### Formatação do Formulario ######################################*/
+   form{
+   /*Largura*/
+   width: 500px ;
+   /*Espaçamento do lado de fora*/
+   margin: auto ;
+}
+
+/*####################################### Formatação do Input= Caixa de Texto"######################################*/
+  input, textarea{
+  /*Tipo da fonte*/
+  font-family: 'font-logo' ;
+  /*Formatar a fonte*/
+  font-weight: normal;
+  /*Tamanho da fonte*/
+  font-size: 13pt;
+  /*Cor de fundo com uma Transparencia*/
+  background-color: rgba(255,255,255.8);
+
+}
+/*####################################### Formatação do Input para quando passar o mouse acontecer algo Input= Caixa de Texto"######################################*/
+  input:hover ,textarea:hover{
+  /*Cor de fundo*/
+  background-color: #dddddd;
+
+}
+
+/*####################################### Formatação da legend= titulos dos campos"######################################*/
+  legend{
+  /*Formatar a fonte/negrito/normal*/
+  font-weight: normal;
+  /*Tamanho da fonte*/
+  font-size: 13pt;
+  /*Cor*/
+  color: #888888;
+  /*Tipo da fonte*/
+  font-family: 'font-logo' ;
+
+}
+
+/*####################################### Formatação do fieldset "######################################*/
+   fieldset{
+   /*Cor da borda*/
+   border-color: #cecece;
+   /*Espaçamento do lado de fora*/
+   margin: 20px;
+
+ }
+   
+   fieldset#sexo{
+   /*Largura*/
+   width: 500px ;
+
+ }
+
+
+   fieldset#usuario{
+   /*Imagem de fundo*/
+   background:url('../_imagens/icone-contato.png') 95% 95% no-repeat;
+
+ }
+
+    fieldset#endereco{
+   /*Imagem de fundo*/
+   background:url('../_imagens/icone-endereco.png') 95% 95% no-repeat;
+
+ }
+
+
+    fieldset#mensagem{
+   /*Imagem de fundo*/
+   background:url('../_imagens/icone-mensagem.png') 95% 95% no-repeat;
+   /*Cor de fundo com uma Transparencia*/
+   background-color: rgba( 255,255,255,.8 );
+
+ }
+
+
+    fieldset#pedido{
+   /*Imagem de fundo*/
+   background:url('../_imagens/icone-pagamento.png') 95% 95% no-repeat;
+   /*Cor de fundo com uma Transparencia*/
+   background-color: rgba( 255,255,255,.8 );
+    }

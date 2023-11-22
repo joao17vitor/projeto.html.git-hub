@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+/*################################## Formatação do tv-radio ####################################*/
+div#tv-radio{
+/*Lagura*/
+width:980px ;
+/*Altura*/
+height:580px ;
+/*Espaçamento a parte de fora*/
+margin: auto ;
+/*Imagem de fundo e os .. significa pasta anterior*/
+background: url("../_imagens/radio-tv.png") no-repeat;
+
+}
+/*################################## Formatação da Musica ####################################*/
+audio#musica{
+ /*A estrutura da musica como um block */
+ display: block;
+ /*Posição relativa*/
+ position: relative;
+ /*Lado esquerda*/
+ left: 570px ;
+ /*Parte de cima*/
+ top:490px ;
+ /*Largura*/
+ width: 300px;
+
+}
+
+/*################################## Formatação do Filme ####################################*/
+video#filme{
+ /*A estrutura da musica como um block */
+ display: block;
+ /*Posição relativa*/
+ position: relative;
+ /*Lado esquerda*/
+ left: 110px ;
+ /*Parte de cima*/
+ top:-50px ;
+ /*Largura*/
+ width: 400px;
+ /*Altura*/
+ height: 400px
+
+}

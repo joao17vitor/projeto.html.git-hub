@@ -1,5 +1,5 @@
 @charset "utf-8";
-
+  /* ########################################### Formatação da Sessão ###########################################*/
 section#corpo-full{
 	/*Largura*/
   width: 1000px;
@@ -7,8 +7,8 @@ section#corpo-full{
   margin: auto;
 
 }
-
-iframe#frame-specs{
+  /* ########################################### Formatação do Iframe ###########################################*/
+  iframe#frame-specs{
   /*Largura*/
   width: 400px;
   /*Altura*/
@@ -18,8 +18,9 @@ iframe#frame-specs{
   /*Para tira a visualização do conteudo*/
   overflow: hidden;
 }
-
+/*Esse Vai dar um Zoom nas imagens*/
 iframe#frame-specs::-webkit-scrollbar{
+/*Pegar a estrutura e não vai deixar como block*/
 display: none;
 
 }
