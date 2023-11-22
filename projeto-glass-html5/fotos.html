@@ -4,15 +4,16 @@
     <meta charset="utf-8"/>
     <!-- <a href="_css/estilo.css> para abrir em outra aba target="_blanck" -->
     <link type="text/css" rel="stylesheet" href="_css/estilo.css" />
-    <!--Alterar as imagens do menu <script type="text/javascript"></script> -->
-    <script type="text/javascript">
-     function mudaFoto (foto) {
-         document.getElementById('icone').src = foto;
-     }
-
-    </script>
+    <link type="text/css" rel="stylesheet" href="_css/fotos.css" />
     <title>Google Glass</title>
     </head>
+    <script>
+    function mudaFoto(foto){
+    document.getElementById('icone').src = foto ;
+
+    }
+
+    </script>
     
     <body>
         <div id="interface">
@@ -31,36 +32,44 @@
          <!--as lista desordenadas(ul) <ol type="square" "disc" "circle" quadrado, circulo e circulo vazio -->  
         <nav id="menu">
         <h1>Menu Principal</h1>
-        <ul>   <!--onmouseover="mudaFoto('_imagens/home.png')"=Ele esta chamando a função mudaFoto para alterar a imagem para home e para quando tirar o mouse de cima home voltar para a imagem do oculos  -->
-         <li onmouseover="mudaFoto('_imagens/home.png')"  onmouseout="mudaFoto('_imagens/glass-oculos-preto-peq.png')"><a href="index.html">Home</a></li>
-
-         <li onmouseover="mudaFoto('_imagens/especificacoes.png')" onmouseout="mudaFoto('_imagens/glass-oculos-preto-peq.png')"><a href="specs.html" >Especificações</a></li>
-
-         <li onmouseover="mudaFoto('_imagens/fotos.png')" onmouseout="mudaFoto('_imagens/glass-oculos-preto-peq.png')"><a href="fotos.html">Fotos</a></li>  
-
-         <li onmouseover="mudaFoto('_imagens/multimidia.png')" onmouseout="mudaFoto('_imagens/glass-oculos-preto-peq.png')"><a href="multimidia.html">Multimídia</a></li>
-
-         <li onmouseover="mudaFoto('_imagens/contato.png')" onmouseout="mudaFoto('_imagens/glass-oculos-preto-peq.png')"><a href="fale-conosco.html">Fale conosco</a></li>
+        <ul>
+         <li onmousemove="mudaFoto('_imagens/Home.png')"><a href="index.html" onmouseout="mudaFoto('_imagens/fotos.png')">Home</a></li>
+         <li onmousemove="mudaFoto('_imagens/especificacoes.png')"><a href="specs.html"  onmouseout="mudaFoto('_imagens/fotos.png')">Especificações</a></li>
+         <li onmousemove="mudaFoto('_imagens/fotos.png')"><a href="fotos.html" onmouseout="mudaFoto('_imagens/fotos.png')">Fotos</a></li>  
+         <li onmousemove="mudaFoto('_imagens/multimidia.png')"><a href="multimidia.html" onmouseout="mudaFoto('_imagens/fotos.png')">Multimídia</a></li>
+         <li onmousemove="mudaFoto('_imagens/contato.png')"><a href="fale-conosco.html"  onmouseout="mudaFoto('_imagens/fotos.png')">Fale conosco</a></li>
         </ul>
         </nav>
- 
-Glass > Fotos
-Galeria de Imagens do Google Glass
-por Gustavo Guanabara
-Atualizado em 01/Maio/2013
+        </header>
+         <!--Sessão=section -->
+         <section id="corpo-full">
+        <!--Artigo -->
+        <article id="noticia-principal">
+        <header id="cabecalho-artigo">
+        <hgroup>
+        <h3>Glass > Fotos</h3>
+        <h1>Galeria de Imagens do Google Glass</h1>
+        <h2>por Gustavo Guanabara</h2>
+        <h3 class="direita">01/Maio/2013</h3>
+        </hgroup>
+        </header>
 
-Veja na nossa galeria de fotos várias belas imagens que mostram algumas das principais características do Google Glass, como recursos e propriedades que estão impressionando o mundo inteiro. Basta passar o mouse sobre uma das fotos para ver uma versão ampliada e com uma breve descrição.
-
-- Agenda e lembretes
-- Sergey Brin usando o Glass
-- Leve e compacto
-- Sensação de uma tela de 50"
-- Vários tipos de lente
-- Informações importantes
-
- <p> Copyright 2013 - by Gustavo Guanabara
+<p>Veja na nossa galeria de fotos várias belas imagens que mostram algumas das principais características do Google Glass, como recursos e propriedades que estão impressionando o mundo inteiro. Basta passar o mouse sobre uma das fotos para ver uma versão ampliada e com uma breve descrição.</p>
+<ul id="album-fotos">
+<li id="foto01"><span> Agenda e lembretes</li></span>
+<li id="foto02"><span>Sergey Brin usando o Glass</li></span>
+<li id="foto03"><span>Leve e compacto</li></span>
+<li id="foto04"><span>Sensação de uma tela de 50"</li></span>
+<li id="foto05"><span>Vários tipos de lente</li></span>
+<li id="foto06"><span>Informações importantes</li></span>
+</ul>
+</article>
+</section>
+<footer id="rodape">
+        <!-- Roda pé -->
+    <p> Copyright 2013 - by Gustavo Guanabara
         Facebook | Twitter</p> 
-      
+        </footer>
     
     </div>
     </body>
