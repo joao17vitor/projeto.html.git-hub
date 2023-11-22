@@ -117,7 +117,7 @@
     /*Top em cima*/
     top: -20px ;
     /*Para a esquerda*/
-    left: 700px ;
+    left: 800px ;
 
  }
 /* ############################################ Formatar os itens da lista ##################################################### */
@@ -284,7 +284,7 @@
     
 }
 
-/* ######################################### Corpo lateral ######################################### */
+/* ######################################### Corpo lateral Titulo ######################################### */
     aside#lateral h1{
    /*Modificar a fonte do titulo do meu cabecalho*/
     font-family: 'fontelogo' ;
@@ -295,7 +295,7 @@
     /*Espaço de fora na parte de cima*/
     margin-top: 10px;
 }
-/* ######################################### Corpo lateral #########################################*/
+/* ######################################### Corpo lateral Subtitulo #########################################*/
     aside#lateral h2{
     /*Cor*/
     color:white;
