@@ -1,10 +1,26 @@
 @charset "utf-8"; 
     /*Isso vai alterar a font da letra google fonts/Google Fonts: Browse Fonts */
 @Font-face{
-   font-family: 'fontelogo' ;
+   font-family: 'fontelogo' ;     
    src:url("../_fonts/computer-font.ttf") ;
-
 }
+@Font-face{
+   font-family: 'fonteparagrafo' ;     
+   src:url("../_fonts/IndieFlower-Regular.ttf") ;
+}
+@Font-face{
+   font-family: 'fontetitulo' ;     
+   src:url("../_fonts/bubblegum-sans-regular.otf") ;
+}
+   p{
+   font-family: 'fonteparagrafo' ;     
+   src:url("../_fonts/IndieFlower-Regular.ttf") ;
+}
+   h3{
+   font-family: 'fontetitulo' ;     
+   src:url("../_fonts/Nosifer-Regular.ttf") ;
+}
+
 /*################################ Formatação do corpo do site ##########################################*/
    body{
     /*alterar a fonte da letra*/
@@ -27,7 +43,7 @@
     text-decoration: underline;
 }
 /* ########################################## Formatação do conteudo do site ########################################## */
-   div#interface{
+    div#interface{
     /*Largura*/
     width: 1000px ;
     /*Altura*/
@@ -45,9 +61,7 @@
 
 /* ########################################## Formatação de paragrafo ##########################################*/
     p{
-    /*O texto vai ficar de maneira justificado*/
     text-align:justify;
-    /*O texto vai ficar com uma indentação*/
     text-indent:50px;
     
 }
@@ -67,7 +81,7 @@
  }
  /*########################################## Formatar o tamanho da imagem ##########################################*/
      figure.foto-legenda img{
- 	/*Largura*/
+    /*Largura*/
      width: 470px ;
     /*Altura*/
      height: 300px ;
@@ -119,7 +133,7 @@
     /*Top em cima*/
     top: -20px ;
     /*Para a esquerda*/
-    left: 550px ;
+    left: 750px ;
 
  }
 /*########################################## Formatar os itens da lista ##########################################*/
@@ -165,7 +179,7 @@
     /*Top em cima*/
     top: 70px ;
     /*Para a esquerda*/
-    left: 1100px ;
+    left: 1270px ;
  }
 /* ########################################## Mexer no cabeçalho do meu site ##########################################*/
      header#cabecalho{
@@ -260,17 +274,11 @@
 
 /* ########################################## Formatação do artigo principal ##########################################*/
     article#noticia-principal h2{
-    /*O tamanho da fonte*/
     font-size:12pt ;
-    /*Tipo da fonte*/
     font-family: 'fontelogo';
-    /*Cor*/
     color:#606060 ;
-    /*Cor de fundo*/
     background-color: #dddddd;
-    /*Espaçamento interno*/
     padding: 5px 0px 5px 10px;
-    /*Espaçamento do lado de fora*/
     margin:10px ;
 }
 
